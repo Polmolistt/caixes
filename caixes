@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .caja {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            float: left;
+            border: 2px solid #000;
+            text-align: center;
+            line-height: 100px;
+            font-size: 18px;
+        }
+
+        .caja:nth-child(1) {
+            background-color: #3498db;
+        }
+
+        .caja:nth-child(2) {
+            background-color: #e74c3c;
+        }
+
+        .caja:nth-child(3) {
+            background-color: #27ae60;
+        }
+
+        .caja:nth-child(4) {
+            background-color: #f1c40f;
+        }
+
+        .caja:nth-child(5) {
+            background-color: #9b59b6;
+        }
+
+        .caja:nth-child(6) {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">hola</div>
+    <div class="caja">aquestas</div>
+    <div class="caja">son</div>
+    <div class="caja">les</div>
+    <div class="caja">sis</div>
+    <div class="caja">caixes</div>
+</body>
+</html>
